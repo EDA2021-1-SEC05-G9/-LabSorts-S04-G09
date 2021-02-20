@@ -36,7 +36,7 @@ operación solicitada
 
 
 def printMenu():
-    print("Bienvenido")
+    print("Bienvenido: ")
     print("1- Cargar información en el catálogo")
     print("2- Consultar los Top x libros por promedio")
     print("3- Consultar los libros de un autor")
@@ -87,7 +87,7 @@ Menu principal
 """
 while True:
     printMenu()
-    inputs = input('Seleccione una opción para continuar\n')
+    inputs = input('Seleccione una opción para continuar: ')
     if int(inputs[0]) == 1:
         print("Cargando información de los archivos ....")
         catalog = initCatalog()
